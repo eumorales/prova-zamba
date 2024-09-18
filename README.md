@@ -48,5 +48,5 @@ O pente é uma variação do bolha, com passos maiores inicialmente para elimina
 ### 7️⃣ Questão 7
 > No processo de ordenação de listas contendo objetos, como pessoas que derivam da classe Pessoa(nome, email, telefone, curso), para usar o método sort() em Java ou C Sharp é preciso realizar alterações na classe Pessoa para que a ordenação ocorra corretamente. Exemplifique e explique qual(is) é(são) essa(s) alterações? Assuma que o atributo chave de ordenação da classe pessoa é nome seguido de curso.
 
-Para utilizar o método `sort()` em Java ou C#, a classe `Pessoa` deve implementar a interface `Comparable` (Java) e sobrescrever o método `compareTo` para definir a lógica de ordenação. 
+Para utilizar o método `sort()`, a classe `Pessoa` deve implementar a interface `Comparable` (Java) e sobrescrever o método `compareTo` para definir a lógica de ordenação. 
 
